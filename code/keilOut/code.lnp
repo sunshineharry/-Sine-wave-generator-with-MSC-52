@@ -1,0 +1,9 @@
+".\keilOut\interrupt.obj",
+".\keilOut\LED.obj",
+".\keilOut\main.obj",
+".\keilOut\tasks.obj",
+".\keilOut\UART.obj",
+".\keilOut\STARTUP.obj" 
+TO ".\keilOut\code" 
+
+PRINT(".\Listings\code.map")

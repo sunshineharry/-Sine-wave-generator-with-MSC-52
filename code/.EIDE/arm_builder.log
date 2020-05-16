@@ -1,0 +1,93 @@
+[2020-05-12 21:04:10]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 21:04:47]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 21:05:55]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 21:20:06]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 21:20:30]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 21:23:46]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 21:24:51]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\main.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 21:49:08]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\interrupt.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 22:02:11]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 23:05:53]	Link failed !, Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 23:17:54]	Link failed !, Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 23:53:36]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-12 23:54:50]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-13 08:46:27]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-13 08:49:48]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-13 09:08:47]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-13 13:12:49]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\tasks.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-13 13:16:49]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 14:44:18]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 15:09:30]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 15:28:32]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 15:40:39]	Link failed !, Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 16:02:26]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 17:28:30]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 17:28:49]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\single_key.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 17:56:47]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 19:25:23]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 19:48:19]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 19:59:22]	Link failed !, Exit Code: 1
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 20:38:48]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+
+[2020-05-15 20:51:19]	Compilation failed at : "c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c", Exit Code: 2
+   在 ARM_Builder_V6.Program.Main(String[] args)
+

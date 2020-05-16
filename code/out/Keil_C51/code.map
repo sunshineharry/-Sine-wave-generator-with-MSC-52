@@ -1,0 +1,286 @@
+LX51 LINKER/LOCATER V4.66.1.0                                                           05/16/2020  08:41:39  PAGE 1
+
+
+LX51 LINKER/LOCATER V4.66.1.0, INVOKED BY:
+C:\PROGRAM FILES\KEIL\C51\BIN\LX51.EXE c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_
+>> final\code\out\Keil_C51\interrupt.o, c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计
+>> _final\code\out\Keil_C51\LED.o, c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_fina
+>> l\code\out\Keil_C51\main.o, c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\co
+>> de\out\Keil_C51\tasks.o, c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\
+>> out\Keil_C51\UART.o, c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\
+>> Keil_C51\STARTUP.o TO c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out
+>> \Keil_C51\code PRINT (c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out
+>> \Keil_C51\code.map) REMOVEUNUSED
+
+
+CPU MODE:     8051 MODE
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\Keil_C51\interrupt.o (
+>> INTERRUPT)
+         COMMENT TYPE 0: C51 V9.52.0.0
+  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\Keil_C51\LED.o (LED)
+         COMMENT TYPE 0: C51 V9.52.0.0
+  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\Keil_C51\main.o (MAIN)
+>> 
+         COMMENT TYPE 0: C51 V9.52.0.0
+  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\Keil_C51\tasks.o (TASK
+>> S)
+         COMMENT TYPE 0: C51 V9.52.0.0
+  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\Keil_C51\UART.o (UART)
+>> 
+         COMMENT TYPE 0: C51 V9.52.0.0
+  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\Keil_C51\STARTUP.o (?C
+>> _STARTUP)
+         COMMENT TYPE 0: AX51 V3.10
+  C:\PROGRAM FILES\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+  C:\PROGRAM FILES\KEIL\C51\LIB\C51S.LIB (?C?UIDIV)
+         COMMENT TYPE 1: A51 / ASM51 Assembler
+
+
+ACTIVE MEMORY CLASSES OF MODULE:  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final
+>> \code\out\Keil_C51\code (INTERRUPT)
+
+BASE        START       END         USED      MEMORY CLASS
+==========================================================
+C:000000H   C:000000H   C:00FFFFH   000252H   CODE
+C:000000H   C:000000H   C:00FFFFH   000070H   CONST
+I:000000H   I:000000H   I:00007FH   000011H   DATA
+I:000000H   I:000000H   I:0000FFH   000001H   IDATA
+
+
+MEMORY MAP OF MODULE:  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out\K
+>> eil_C51\code (INTERRUPT)
+
+
+START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
+=========================================================================
+
+* * * * * * * * * * *   D A T A   M E M O R Y   * * * * * * * * * * * * *
+000000H   000007H   000008H   ---    AT..     DATA           "REG BANK 0"
+000008H   00000AH   000003H   BYTE   UNIT     DATA           ?DT?TASKS
+00000BH   00000DH   000003H   BYTE   UNIT     DATA           _DATA_GROUP_
+00000EH   00000FH   000002H   BYTE   UNIT     DATA           ?DT?MAIN
+000010H   000010H   000001H   BYTE   UNIT     DATA           ?DT?UART
+000011H   000011H   000001H   BYTE   UNIT     IDATA          ?STACK
+
+LX51 LINKER/LOCATER V4.66.1.0                                                         05/16/2020  08:41:39  PAGE 2
+
+
+* * * * * * * * * * *   C O D E   M E M O R Y   * * * * * * * * * * * * *
+000000H   000002H   000003H   ---    OFFS..   CODE           ?CO?STARTUP?3
+000003H   00000AH   000008H   BYTE   INBLOCK  CODE           ?PR?INIT?MAIN
+00000BH   00000CH   000002H   BYTE   OFFS..   CODE           ?TASKS?0000B
+00000DH   00001FH   000013H   BYTE   INBLOCK  CODE           ?PR?_LED_SHOW?LED
+000020H   000022H   000003H   ---    ---      **GAP**
+000023H   000024H   000002H   BYTE   OFFS..   CODE           ?UART?00023
+000025H   0000D7H   0000B3H   BYTE   INBLOCK  CODE           ?PR?MAIN?MAIN
+0000D8H   000111H   00003AH   BYTE   INBLOCK  CODE           ?PR?TIM0_50US?TASKS
+000112H   000123H   000012H   BYTE   INBLOCK  CODE           ?PR?TIM_0_INIT?INTERRUPT
+000124H   000130H   00000DH   BYTE   INBLOCK  CODE           ?PR?UART_INIT?UART
+000131H   00013CH   00000CH   BYTE   INBLOCK  CODE           ?PR?TIM_1_INIT?INTERRUPT
+00013DH   000145H   000009H   BYTE   INBLOCK  CODE           ?PR?EX0_INIT?INTERRUPT
+000146H   00014EH   000009H   BYTE   INBLOCK  CODE           ?PR?EX1_INIT?INTERRUPT
+00014FH   000157H   000009H   BYTE   INBLOCK  CODE           ?PR?UART_RECEIVE_DATA?UART
+000158H   00015FH   000008H   BYTE   INBLOCK  CODE           ?PR?_UART_SEND_DATA?UART
+000160H   000164H   000005H   BYTE   INBLOCK  CODE           ?PR?DELAYUS?LED
+000165H   0001F0H   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
+0001F1H   000245H   000055H   BYTE   UNIT     CODE           ?C?LIB_CODE
+000246H   000254H   00000FH   BYTE   UNIT     CODE           ?C_INITSEG
+000255H   0002B8H   000064H   BYTE   UNIT     CONST          ?CO?TASKS
+0002B9H   0002C4H   00000CH   BYTE   UNIT     CONST          ?CO?LED
+
+
+
+OVERLAY MAP OF MODULE:   c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out
+>> \Keil_C51\code (INTERRUPT)
+
+
+FUNCTION/MODULE              BIT_GROUP   DATA_GROUP 
+--> CALLED FUNCTION/MODULE  START  STOP  START  STOP
+====================================================
+TIM0_50US/TASKS             ----- -----  ----- -----
+  +--> ?CO?TASKS
+
+?CO?TASKS                   ----- -----  ----- -----
+
+*** NEW ROOT **************
+
+UART_RECEIVE_DATA/UART      ----- -----  ----- -----
+
+*** NEW ROOT **************
+
+?C_C51STARTUP               ----- -----  ----- -----
+  +--> MAIN/MAIN
+  +--> ?C_INITSEG
+
+MAIN/MAIN                   ----- -----  000BH 000DH
+  +--> INIT/MAIN
+  +--> _UART_SEND_DATA/UART
+  +--> _LED_SHOW/LED
+
+INIT/MAIN                   ----- -----  ----- -----
+  +--> UART_INIT/UART
+  +--> TIM_0_INIT/INTERRUPT
+  +--> EX0_INIT/INTERRUPT
+  +--> EX1_INIT/INTERRUPT
+
+UART_INIT/UART              ----- -----  ----- -----
+  +--> TIM_1_INIT/INTERRUPT
+
+TIM_1_INIT/INTERRUPT        ----- -----  ----- -----
+
+TIM_0_INIT/INTERRUPT        ----- -----  ----- -----
+
+LX51 LINKER/LOCATER V4.66.1.0                                                         05/16/2020  08:41:39  PAGE 3
+
+
+EX0_INIT/INTERRUPT          ----- -----  ----- -----
+
+EX1_INIT/INTERRUPT          ----- -----  ----- -----
+
+_UART_SEND_DATA/UART        ----- -----  ----- -----
+
+_LED_SHOW/LED               ----- -----  ----- -----
+  +--> ?CO?LED
+  +--> DELAYUS/LED
+
+?CO?LED                     ----- -----  ----- -----
+
+DELAYUS/LED                 ----- -----  ----- -----
+
+?C_INITSEG                  ----- -----  ----- -----
+
+
+
+PUBLIC SYMBOLS OF MODULE:  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\o
+>> ut\Keil_C51\code (INTERRUPT)
+
+
+      VALUE       CLASS    TYPE      PUBLIC SYMBOL NAME
+      =================================================
+      00000000H   NUMBER   ---       ?C?CODESEG
+      010001F1H   CODE     ---       ?C?UIDIV
+      00000000H   NUMBER   ---       ?C?XDATASEG
+      010001ACH   CODE     ---       ?C_START
+      01000000H   CODE     NEAR LAB  ?C_STARTUP
+      0100000DH   CODE     ---       _LED_show
+      01000158H   CODE     ---       _UART_send_data
+      01000160H   CODE     ---       delayus
+      0100013DH   CODE     ---       EX0_init
+      01000146H   CODE     ---       EX1_init
+      00000008H   DATA     WORD      i
+      01000003H   CODE     ---       init
+      0000000AH   DATA     BYTE      j
+      01000025H   CODE     ---       main
+      010002B9H   CONST    ---       num_encode
+      01000255H   CONST    ---       sin_wave
+      010000D8H   CODE     ---       TIM0_50us
+      01000112H   CODE     ---       TIM_0_init
+      01000131H   CODE     ---       TIM_1_init
+      0000000EH   DATA     WORD      time
+      01000124H   CODE     ---       UART_init
+      0100014FH   CODE     ---       UART_receive_data
+      00000010H   DATA     BYTE      UARTReceiveData
+
+
+
+SYMBOL TABLE OF MODULE:  c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计_final\code\out
+>> \Keil_C51\code (INTERRUPT)
+
+      VALUE       REP       CLASS    TYPE      SYMBOL NAME
+      ====================================================
+      ---         MODULE    ---      ---       INTERRUPT
+      01000146H   PUBLIC    CODE     ---       EX1_init
+      0100013DH   PUBLIC    CODE     ---       EX0_init
+      01000131H   PUBLIC    CODE     ---       TIM_1_init
+      01000112H   PUBLIC    CODE     ---       TIM_0_init
+
+      01000112H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000131H   BLOCK     CODE     ---       LVL=0
+LX51 LINKER/LOCATER V4.66.1.0                                                         05/16/2020  08:41:39  PAGE 4
+
+
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100013DH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000146H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       LED
+      010002B9H   PUBLIC    CONST    ---       num_encode
+      0100000DH   PUBLIC    CODE     ---       _LED_show
+      01000160H   PUBLIC    CODE     ---       delayus
+
+      01000160H   BLOCK     CODE     ---       LVL=0
+      01000160H   BLOCK     CODE     NEAR LAB  LVL=1
+      00000007H   SYMBOL    DATA     VOID      a
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100000DH   BLOCK     CODE     ---       LVL=0
+      0100000DH   BLOCK     CODE     NEAR LAB  LVL=1
+      00000006H   SYMBOL    DATA     VOID      tmp
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       MAIN
+      0000000EH   PUBLIC    DATA     WORD      time
+      01000025H   PUBLIC    CODE     ---       main
+      01000003H   PUBLIC    CODE     ---       init
+
+      01000003H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000025H   BLOCK     CODE     ---       LVL=0
+      01000025H   BLOCK     CODE     NEAR LAB  LVL=1
+      0000000BH   SYMBOL    DATA     VOID      tmp
+      0000000CH   SYMBOL    DATA     VOID      T
+      ---         BLOCKEND  ---      ---       LVL=1
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       TASKS
+      0000000AH   PUBLIC    DATA     BYTE      j
+      00000008H   PUBLIC    DATA     WORD      i
+      01000255H   PUBLIC    CONST    ---       sin_wave
+      010000D8H   PUBLIC    CODE     ---       TIM0_50us
+
+      010000D8H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       UART
+      00000010H   PUBLIC    DATA     BYTE      UARTReceiveData
+      0100014FH   PUBLIC    CODE     ---       UART_receive_data
+      01000158H   PUBLIC    CODE     ---       _UART_send_data
+      01000124H   PUBLIC    CODE     ---       UART_init
+
+      01000124H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      01000158H   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      0100014FH   BLOCK     CODE     ---       LVL=0
+      ---         BLOCKEND  ---      ---       LVL=0
+
+      ---         MODULE    ---      ---       ?C_STARTUP
+LX51 LINKER/LOCATER V4.66.1.0                                                         05/16/2020  08:41:39  PAGE 5
+
+
+      01000000H   PUBLIC    CODE     NEAR LAB  ?C_STARTUP
+
+      ---         MODULE    ---      ---       ?C_INIT
+      010001ACH   PUBLIC    CODE     ---       ?C_START
+
+      ---         MODULE    ---      ---       ?C?UIDIV
+      010001F1H   PUBLIC    CODE     ---       ?C?UIDIV
+
+Program Size: data=18.0 xdata=0 const=112 code=594
+LX51 RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

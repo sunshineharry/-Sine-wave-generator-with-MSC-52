@@ -1,0 +1,1 @@
+"src\single_key.c" OMF2 ROM(SMALL) OPTIMIZE (8,SPEED) BROWSE INCDIR(.\dependence;.\src) DEBUG PRINT(.\Listings\single_key.lst) OBJECT(.\keilOut\single_key.obj)

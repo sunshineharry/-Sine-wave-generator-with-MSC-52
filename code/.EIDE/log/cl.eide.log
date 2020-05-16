@@ -1,0 +1,133 @@
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/12|20:58:29|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/12|22:41:08|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/12|22:49:56|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+[Error] : ErrorError: ENOENT: no such file or directory, lstat 'c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\tasks.c~RF22908d7.TMP'
+	at lstatSync (fs.js:847:3)
+	at fs.lstatSync (electron/js2c/asar.js:235:27)
+	at Object.fs.lstatSync (electron/js2c/asar.js:235:27)
+	at s.IsDir (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:3766)
+	at c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2947
+	at Array.forEach (<anonymous>)
+	at s.GetList (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2875)
+	at x.UpdateFileGroup (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:76336)
+	at x.onSourceDirChanged (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:80162)
+	at EventEmitter.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:77080)
+	at EventEmitter.emit (events.js:203:13)
+	at x.emit (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:68933)
+	at t.FileWatcher.e.OnRename (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:75385)
+	at FSWatcher.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:87265)
+	at FSWatcher.emit (events.js:203:13)
+	at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+[Error] : ErrorError: ENOENT: no such file or directory, lstat 'c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\MFCA227.tmp'
+	at lstatSync (fs.js:847:3)
+	at fs.lstatSync (electron/js2c/asar.js:235:27)
+	at Object.fs.lstatSync (electron/js2c/asar.js:235:27)
+	at s.IsDir (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:3766)
+	at c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2947
+	at Array.forEach (<anonymous>)
+	at s.GetList (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2875)
+	at x.UpdateFileGroup (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:76336)
+	at x.onSourceDirChanged (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:80162)
+	at EventEmitter.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:77080)
+	at EventEmitter.emit (events.js:203:13)
+	at x.emit (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:68933)
+	at t.FileWatcher.e.OnRename (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:75385)
+	at FSWatcher.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:87265)
+	at FSWatcher.emit (events.js:203:13)
+	at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+[Error] : ErrorError: ENOENT: no such file or directory, lstat 'c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计\code\src\interrupt.c'
+	at lstatSync (fs.js:847:3)
+	at fs.lstatSync (electron/js2c/asar.js:235:27)
+	at Object.fs.lstatSync (electron/js2c/asar.js:235:27)
+	at s.IsDir (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:3766)
+	at c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2947
+	at Array.forEach (<anonymous>)
+	at s.GetList (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2875)
+	at x.UpdateFileGroup (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:76336)
+	at x.onSourceDirChanged (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:80162)
+	at EventEmitter.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:77080)
+	at EventEmitter.emit (events.js:203:13)
+	at x.emit (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:68933)
+	at t.FileWatcher.e.OnRename (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:75385)
+	at FSWatcher.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:87265)
+	at FSWatcher.emit (events.js:203:13)
+	at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+[Error] : ErrorError: Language client is not ready yet
+	at LanguageClient.sendNotification (c:\Users\Harry\.vscode\extensions\ms-vscode.cpptools-0.27.1\dist\main.js:7063:19)
+	at DefaultClient.onInterval (c:\Users\Harry\.vscode\extensions\ms-vscode.cpptools-0.27.1\dist\main.js:36614:33)
+	at Timeout.onInterval [as _onTimeout] (c:\Users\Harry\.vscode\extensions\ms-vscode.cpptools-0.27.1\dist\main.js:4636:26)
+	at listOnTimeout (internal/timers.js:531:17)
+	at processTimers (internal/timers.js:475:7)
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/13|08:06:41|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/13|11:47:50|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+
+[Error] : ErrorError: write EPIPE
+	at afterWriteDispatched (internal/stream_base_commons.js:146:25)
+	at writeGeneric (internal/stream_base_commons.js:137:3)
+	at Socket._writeGeneric (net.js:698:11)
+	at Socket._write (net.js:710:8)
+	at doWrite (_stream_writable.js:418:12)
+	at writeOrBuffer (_stream_writable.js:402:5)
+	at Socket.Writable.write (_stream_writable.js:302:11)
+	at d.write (c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:238:867)
+	at f._writeNow (c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:231:110)
+	at Immediate.<anonymous> (c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\services\extensions\node\extensionHostProcess.js:231:48)
+	at processImmediate (internal/timers.js:439:21)
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/13|12:39:48|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/13|13:47:24|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/15|14:43:22|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+[Error] : ErrorError: EPERM: operation not permitted, lstat 'c:\Users\Harry\Documents\OneDrive - ODMAIL\学习资料\大二下学期\现代仪器\课程设计02\code\src\main.c~RF2017e29.TMP'
+	at lstatSync (fs.js:847:3)
+	at fs.lstatSync (electron/js2c/asar.js:235:27)
+	at Object.fs.lstatSync (electron/js2c/asar.js:235:27)
+	at s.IsDir (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:3766)
+	at c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2947
+	at Array.forEach (<anonymous>)
+	at s.GetList (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:2875)
+	at x.EnumIncDir (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:76837)
+	at x.UpdateFileGroup (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:76272)
+	at x.onSourceDirChanged (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:80162)
+	at EventEmitter.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:77080)
+	at EventEmitter.emit (events.js:203:13)
+	at x.emit (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:68933)
+	at t.FileWatcher.e.OnRename (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:75385)
+	at FSWatcher.<anonymous> (c:\Users\Harry\.vscode\extensions\cl.eide-1.13.0\dist\extension.js:1:87265)
+	at FSWatcher.emit (events.js:203:13)
+	at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:131:12)
+
+
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/16|08:39:55|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+
+
+[12345678-1234-5678-90AB-CDDEEFAABBCC] : log at : 2020/5/16|09:11:47|GMT+0800
+[Hidden] : Not found D:\ARM-GCC\8 2019-q3-update\bin\arm-none-eabi-gcc.exe !
+
+
